@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+        "label": "Run postgres",
+        "type": "shell",
+        "command": "tasks/run_postgres.sh",
+        "group": "test",
+        "presentation": {
+            "reveal": "always",
+            "showReuseMessage": false,
+            "panel": "shared"
+        },
+        "options": {
+            "cwd": "${workspaceFolder}"
+        }
+        }
+    ]
+}
